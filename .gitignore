@@ -1,0 +1,86 @@
+# Xcode
+#
+# gitignore contributors: https://github.com/github/gitignore/blob/master/Global/Xcode.gitignore
+
+## User settings
+xcuserdata/
+*.xcuserstate
+project.xcworkspace/
+IDEWorkspaceChecks.plist
+workspace.xcuserdata/
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcshareddata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Objective-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+Pods/
+*.podspec.json
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code Injection
+injectionforxcode/
+
+# App Transport Security (ATS) exception plist
+*-ats-exception.plist
+
+# Realm
+realm-object-server/
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on disk
+.Spotlight-V100
+.Trashes
+Icon?
+*.swp
+*.lock
+*.lock.rtf
+*.lock.doc
+*.lock.json
+*.lock.yml
+*.lock.yaml
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+

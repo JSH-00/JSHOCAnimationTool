@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		725F56C82BFE117C0083DF88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F56C72BFE117C0083DF88 /* AppDelegate.m */; };
+		725F56CB2BFE117C0083DF88 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F56CA2BFE117C0083DF88 /* SceneDelegate.m */; };
+		725F56CE2BFE117C0083DF88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F56CD2BFE117C0083DF88 /* ViewController.m */; };
+		725F56D12BFE117C0083DF88 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 725F56D02BFE117C0083DF88 /* Base */; };
+		725F56D32BFE117D0083DF88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725F56D22BFE117D0083DF88 /* Assets.xcassets */; };
+		725F56D62BFE117D0083DF88 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 725F56D52BFE117D0083DF88 /* Base */; };
+		725F56D92BFE117D0083DF88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F56D82BFE117D0083DF88 /* main.m */; };
+		725F56E32BFE117D0083DF88 /* JSHOCAnimationToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F56E22BFE117D0083DF88 /* JSHOCAnimationToolTests.m */; };
+		725F56ED2BFE117D0083DF88 /* JSHOCAnimationToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F56EC2BFE117D0083DF88 /* JSHOCAnimationToolUITests.m */; };
+		725F56EF2BFE117D0083DF88 /* JSHOCAnimationToolUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F56EE2BFE117D0083DF88 /* JSHOCAnimationToolUITestsLaunchTests.m */; };
+		725F56FD2BFE1A030083DF88 /* HHOIconFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F56FC2BFE1A030083DF88 /* HHOIconFlowView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		725F56DF2BFE117D0083DF88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 725F56BB2BFE117C0083DF88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 725F56C22BFE117C0083DF88;
+			remoteInfo = JSHOCAnimationTool;
+		};
+		725F56E92BFE117D0083DF88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 725F56BB2BFE117C0083DF88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 725F56C22BFE117C0083DF88;
+			remoteInfo = JSHOCAnimationTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		725F56C32BFE117C0083DF88 /* JSHOCAnimationTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSHOCAnimationTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		725F56C62BFE117C0083DF88 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		725F56C72BFE117C0083DF88 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		725F56C92BFE117C0083DF88 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		725F56CA2BFE117C0083DF88 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		725F56CC2BFE117C0083DF88 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		725F56CD2BFE117C0083DF88 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		725F56D02BFE117C0083DF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		725F56D22BFE117D0083DF88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		725F56D52BFE117D0083DF88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		725F56D72BFE117D0083DF88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		725F56D82BFE117D0083DF88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		725F56DE2BFE117D0083DF88 /* JSHOCAnimationToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSHOCAnimationToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		725F56E22BFE117D0083DF88 /* JSHOCAnimationToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSHOCAnimationToolTests.m; sourceTree = "<group>"; };
+		725F56E82BFE117D0083DF88 /* JSHOCAnimationToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSHOCAnimationToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		725F56EC2BFE117D0083DF88 /* JSHOCAnimationToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSHOCAnimationToolUITests.m; sourceTree = "<group>"; };
+		725F56EE2BFE117D0083DF88 /* JSHOCAnimationToolUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSHOCAnimationToolUITestsLaunchTests.m; sourceTree = "<group>"; };
+		725F56FB2BFE1A030083DF88 /* HHOIconFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHOIconFlowView.h; sourceTree = "<group>"; };
+		725F56FC2BFE1A030083DF88 /* HHOIconFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHOIconFlowView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		725F56C02BFE117C0083DF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725F56DB2BFE117D0083DF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725F56E52BFE117D0083DF88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		725F56BA2BFE117C0083DF88 = {
+			isa = PBXGroup;
+			children = (
+				725F56C52BFE117C0083DF88 /* JSHOCAnimationTool */,
+				725F56E12BFE117D0083DF88 /* JSHOCAnimationToolTests */,
+				725F56EB2BFE117D0083DF88 /* JSHOCAnimationToolUITests */,
+				725F56C42BFE117C0083DF88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		725F56C42BFE117C0083DF88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				725F56C32BFE117C0083DF88 /* JSHOCAnimationTool.app */,
+				725F56DE2BFE117D0083DF88 /* JSHOCAnimationToolTests.xctest */,
+				725F56E82BFE117D0083DF88 /* JSHOCAnimationToolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		725F56C52BFE117C0083DF88 /* JSHOCAnimationTool */ = {
+			isa = PBXGroup;
+			children = (
+				725F56C62BFE117C0083DF88 /* AppDelegate.h */,
+				725F56C72BFE117C0083DF88 /* AppDelegate.m */,
+				725F56C92BFE117C0083DF88 /* SceneDelegate.h */,
+				725F56CA2BFE117C0083DF88 /* SceneDelegate.m */,
+				725F56CC2BFE117C0083DF88 /* ViewController.h */,
+				725F56CD2BFE117C0083DF88 /* ViewController.m */,
+				725F56FB2BFE1A030083DF88 /* HHOIconFlowView.h */,
+				725F56FC2BFE1A030083DF88 /* HHOIconFlowView.m */,
+				725F56CF2BFE117C0083DF88 /* Main.storyboard */,
+				725F56D22BFE117D0083DF88 /* Assets.xcassets */,
+				725F56D42BFE117D0083DF88 /* LaunchScreen.storyboard */,
+				725F56D72BFE117D0083DF88 /* Info.plist */,
+				725F56D82BFE117D0083DF88 /* main.m */,
+			);
+			path = JSHOCAnimationTool;
+			sourceTree = "<group>";
+		};
+		725F56E12BFE117D0083DF88 /* JSHOCAnimationToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				725F56E22BFE117D0083DF88 /* JSHOCAnimationToolTests.m */,
+			);
+			path = JSHOCAnimationToolTests;
+			sourceTree = "<group>";
+		};
+		725F56EB2BFE117D0083DF88 /* JSHOCAnimationToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				725F56EC2BFE117D0083DF88 /* JSHOCAnimationToolUITests.m */,
+				725F56EE2BFE117D0083DF88 /* JSHOCAnimationToolUITestsLaunchTests.m */,
+			);
+			path = JSHOCAnimationToolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		725F56C22BFE117C0083DF88 /* JSHOCAnimationTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725F56F22BFE117D0083DF88 /* Build configuration list for PBXNativeTarget "JSHOCAnimationTool" */;
+			buildPhases = (
+				725F56BF2BFE117C0083DF88 /* Sources */,
+				725F56C02BFE117C0083DF88 /* Frameworks */,
+				725F56C12BFE117C0083DF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSHOCAnimationTool;
+			productName = JSHOCAnimationTool;
+			productReference = 725F56C32BFE117C0083DF88 /* JSHOCAnimationTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		725F56DD2BFE117D0083DF88 /* JSHOCAnimationToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725F56F52BFE117D0083DF88 /* Build configuration list for PBXNativeTarget "JSHOCAnimationToolTests" */;
+			buildPhases = (
+				725F56DA2BFE117D0083DF88 /* Sources */,
+				725F56DB2BFE117D0083DF88 /* Frameworks */,
+				725F56DC2BFE117D0083DF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				725F56E02BFE117D0083DF88 /* PBXTargetDependency */,
+			);
+			name = JSHOCAnimationToolTests;
+			productName = JSHOCAnimationToolTests;
+			productReference = 725F56DE2BFE117D0083DF88 /* JSHOCAnimationToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		725F56E72BFE117D0083DF88 /* JSHOCAnimationToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725F56F82BFE117D0083DF88 /* Build configuration list for PBXNativeTarget "JSHOCAnimationToolUITests" */;
+			buildPhases = (
+				725F56E42BFE117D0083DF88 /* Sources */,
+				725F56E52BFE117D0083DF88 /* Frameworks */,
+				725F56E62BFE117D0083DF88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				725F56EA2BFE117D0083DF88 /* PBXTargetDependency */,
+			);
+			name = JSHOCAnimationToolUITests;
+			productName = JSHOCAnimationToolUITests;
+			productReference = 725F56E82BFE117D0083DF88 /* JSHOCAnimationToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		725F56BB2BFE117C0083DF88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					725F56C22BFE117C0083DF88 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					725F56DD2BFE117D0083DF88 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 725F56C22BFE117C0083DF88;
+					};
+					725F56E72BFE117D0083DF88 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 725F56C22BFE117C0083DF88;
+					};
+				};
+			};
+			buildConfigurationList = 725F56BE2BFE117C0083DF88 /* Build configuration list for PBXProject "JSHOCAnimationTool" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 725F56BA2BFE117C0083DF88;
+			productRefGroup = 725F56C42BFE117C0083DF88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725F56C22BFE117C0083DF88 /* JSHOCAnimationTool */,
+				725F56DD2BFE117D0083DF88 /* JSHOCAnimationToolTests */,
+				725F56E72BFE117D0083DF88 /* JSHOCAnimationToolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		725F56C12BFE117C0083DF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725F56D32BFE117D0083DF88 /* Assets.xcassets in Resources */,
+				725F56D62BFE117D0083DF88 /* Base in Resources */,
+				725F56D12BFE117C0083DF88 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725F56DC2BFE117D0083DF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725F56E62BFE117D0083DF88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		725F56BF2BFE117C0083DF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725F56CE2BFE117C0083DF88 /* ViewController.m in Sources */,
+				725F56C82BFE117C0083DF88 /* AppDelegate.m in Sources */,
+				725F56D92BFE117D0083DF88 /* main.m in Sources */,
+				725F56FD2BFE1A030083DF88 /* HHOIconFlowView.m in Sources */,
+				725F56CB2BFE117C0083DF88 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725F56DA2BFE117D0083DF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725F56E32BFE117D0083DF88 /* JSHOCAnimationToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725F56E42BFE117D0083DF88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725F56ED2BFE117D0083DF88 /* JSHOCAnimationToolUITests.m in Sources */,
+				725F56EF2BFE117D0083DF88 /* JSHOCAnimationToolUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		725F56E02BFE117D0083DF88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 725F56C22BFE117C0083DF88 /* JSHOCAnimationTool */;
+			targetProxy = 725F56DF2BFE117D0083DF88 /* PBXContainerItemProxy */;
+		};
+		725F56EA2BFE117D0083DF88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 725F56C22BFE117C0083DF88 /* JSHOCAnimationTool */;
+			targetProxy = 725F56E92BFE117D0083DF88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		725F56CF2BFE117C0083DF88 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				725F56D02BFE117C0083DF88 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		725F56D42BFE117D0083DF88 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				725F56D52BFE117D0083DF88 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		725F56F02BFE117D0083DF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		725F56F12BFE117D0083DF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		725F56F32BFE117D0083DF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7DR2LJWWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JSHOCAnimationTool/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mulan.JSHOCAnimationTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		725F56F42BFE117D0083DF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7DR2LJWWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JSHOCAnimationTool/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mulan.JSHOCAnimationTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		725F56F62BFE117D0083DF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7DR2LJWWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mulan.JSHOCAnimationToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSHOCAnimationTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JSHOCAnimationTool";
+			};
+			name = Debug;
+		};
+		725F56F72BFE117D0083DF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7DR2LJWWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mulan.JSHOCAnimationToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSHOCAnimationTool.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JSHOCAnimationTool";
+			};
+			name = Release;
+		};
+		725F56F92BFE117D0083DF88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7DR2LJWWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mulan.JSHOCAnimationToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JSHOCAnimationTool;
+			};
+			name = Debug;
+		};
+		725F56FA2BFE117D0083DF88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J7DR2LJWWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mulan.JSHOCAnimationToolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JSHOCAnimationTool;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		725F56BE2BFE117C0083DF88 /* Build configuration list for PBXProject "JSHOCAnimationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725F56F02BFE117D0083DF88 /* Debug */,
+				725F56F12BFE117D0083DF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725F56F22BFE117D0083DF88 /* Build configuration list for PBXNativeTarget "JSHOCAnimationTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725F56F32BFE117D0083DF88 /* Debug */,
+				725F56F42BFE117D0083DF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725F56F52BFE117D0083DF88 /* Build configuration list for PBXNativeTarget "JSHOCAnimationToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725F56F62BFE117D0083DF88 /* Debug */,
+				725F56F72BFE117D0083DF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725F56F82BFE117D0083DF88 /* Build configuration list for PBXNativeTarget "JSHOCAnimationToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725F56F92BFE117D0083DF88 /* Debug */,
+				725F56FA2BFE117D0083DF88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 725F56BB2BFE117C0083DF88 /* Project object */;
+}
