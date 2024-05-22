@@ -18,6 +18,7 @@
 		725F56ED2BFE117D0083DF88 /* JSHOCAnimationToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F56EC2BFE117D0083DF88 /* JSHOCAnimationToolUITests.m */; };
 		725F56EF2BFE117D0083DF88 /* JSHOCAnimationToolUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F56EE2BFE117D0083DF88 /* JSHOCAnimationToolUITestsLaunchTests.m */; };
 		725F56FD2BFE1A030083DF88 /* HHOIconFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 725F56FC2BFE1A030083DF88 /* HHOIconFlowView.m */; };
+		725F56FF2BFE28940083DF88 /* 1716384003130.gif in Resources */ = {isa = PBXBuildFile; fileRef = 725F56FE2BFE28940083DF88 /* 1716384003130.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		725F56EE2BFE117D0083DF88 /* JSHOCAnimationToolUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSHOCAnimationToolUITestsLaunchTests.m; sourceTree = "<group>"; };
 		725F56FB2BFE1A030083DF88 /* HHOIconFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHOIconFlowView.h; sourceTree = "<group>"; };
 		725F56FC2BFE1A030083DF88 /* HHOIconFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHOIconFlowView.m; sourceTree = "<group>"; };
+		725F56FE2BFE28940083DF88 /* 1716384003130.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1716384003130.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				725F56C62BFE117C0083DF88 /* AppDelegate.h */,
 				725F56C72BFE117C0083DF88 /* AppDelegate.m */,
 				725F56C92BFE117C0083DF88 /* SceneDelegate.h */,
+				725F56FE2BFE28940083DF88 /* 1716384003130.gif */,
 				725F56CA2BFE117C0083DF88 /* SceneDelegate.m */,
 				725F56CC2BFE117C0083DF88 /* ViewController.h */,
 				725F56CD2BFE117C0083DF88 /* ViewController.m */,
@@ -246,6 +249,7 @@
 			files = (
 				725F56D32BFE117D0083DF88 /* Assets.xcassets in Resources */,
 				725F56D62BFE117D0083DF88 /* Base in Resources */,
+				725F56FF2BFE28940083DF88 /* 1716384003130.gif in Resources */,
 				725F56D12BFE117C0083DF88 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
